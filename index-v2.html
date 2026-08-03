@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商業施設訪問記録 - スタンプラリー</title>
+    <link rel="stylesheet" href="assets/common.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+
+<body>
+    <h1 class="page-title">商業施設訪問記録</h1>
+
+    <div class="facility-list" id="facilityList">
+        <p class="loading">読み込み中...</p>
+    </div>
+
+    <p class="summary-title">▼ SNSでシェアできるまとめ画像</p>
+
+    <div class="summary-section">
+        <div id="shareCaptureArea">
+            <div class="share-header">
+                <h2>商業施設 訪問記録まとめ</h2>
+                <div class="share-sub">Stamp Rally Progress</div>
+            </div>
+            <div class="share-overall">
+                <div>
+                    <div class="big-percent" id="overallPercent">0%</div>
+                </div>
+                <div class="big-count" id="overallCount">0 / 0 施設 訪問済み</div>
+            </div>
+            <div id="shareBody"></div>
+            <div class="share-footer">生成日: <span id="genDate"></span></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="btn-save" id="saveShareBtn">まとめ画像を保存する</button>
+    </div>
+
+    <script>
+        document.getElementById('genDate').textContent = new Date().toLocaleDateString('ja-JP');
+    </script>
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
