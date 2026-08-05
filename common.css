@@ -164,7 +164,7 @@ a {
 /* 店舗チップ */
 .mall-chip {
     font-size: 9px;
-    padding: 5px 1px;
+    padding: 6px 2px;
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -172,7 +172,7 @@ a {
     text-align: center;
     transition: 0.2s;
     color: #666;
-    height: 20px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
