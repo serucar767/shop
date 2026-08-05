@@ -5,7 +5,6 @@
 (async function () {
     const listEl = document.getElementById('facilityList');
     const shareBody = document.getElementById('shareBody');
-    const overallPercentEl = document.getElementById('overallPercent');
     const overallCountEl = document.getElementById('overallCount');
 
     let facilities;
@@ -67,10 +66,8 @@
     function renderShareSummary(results) {
         const totalAll = results.reduce((s, r) => s + r.total, 0);
         const countAll = results.reduce((s, r) => s + r.count, 0);
-        const overallPercent = totalAll > 0 ? ((countAll / totalAll) * 100).toFixed(1) : "0.0";
-
-        overallPercentEl.textContent = `${overallPercent}%`;
-        overallCountEl.textContent = `${countAll} / ${totalAll} 施設 訪問済み`;
+        
+        overallCountEl.innerHTML = `リスト内 <span class="highlight-count">${countAll} / ${totalAll}</span> 施設 訪問済み`;
 
         shareBody.innerHTML = '';
         results.forEach(({ config, total, count }) => {
