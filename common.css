@@ -404,3 +404,11 @@ a {
     color: #bbb;
     margin-top: 16px;
 }
+
+/* まとめ画像の訪問数ハイライト */
+.highlight-count {
+    font-size: 20px;     /* ここで数字の大きさを調整（元の文字より大きく） */
+    font-weight: bold;   /* 文字を太くする */
+    color: #333;         /* 少し濃い色にして強調 */
+    margin: 0 4px;       /* 数字の左右に少しだけ隙間をあける */
+}
