@@ -16,5 +16,14 @@
     "storageKey": "youme_data",
     "themeColor": "#C60079",
     "regionOrder": ["兵庫県", "岡山県", "広島県", "島根県", "山口県", "徳島県", "香川県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県"]
-  }
+  },
+  {
+    "id": "depart",
+    "name": "百貨店",
+    "fullName": "百貨店\nスタンプラリー",
+    "csv": "data/department.csv",
+    "storageKey": "depart_data",
+    "themeColor": "#465DAA",
+    "regionOrder": ["北海道", "東北", "関東", "中部", "近畿", "中国", "四国", "九州"]
+  },
 ]
