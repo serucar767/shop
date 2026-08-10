@@ -25,7 +25,7 @@
     "storageKey": "depart_data",
     "themeColor": "#465DAA",
     "regionOrder": ["北海道", "東北", "関東", "中部", "近畿", "中国", "四国", "九州"]
-  }
+  },
   {
     "id": "ito",
     "name": "イトーヨーカドー・アリオ+α",
@@ -34,7 +34,7 @@
     "storageKey": "ito_data",
     "themeColor": "#E60111",
     "regionOrder": ["栃木県", "埼玉県", "千葉県", "東京都", "神奈川県", "山梨県", "静岡県", "岐阜県", "大阪府", "兵庫県"]
-  }
+  },
   {
     "id": "lala",
     "name": "ららぽーと+α",
@@ -43,8 +43,8 @@
     "storageKey": "lala_data",
     "themeColor": "#0074B6",
     "regionOrder": ["東日本", "中日本", "西日本"]
-  }
-   {
+  },
+  {
     "id": "outlet",
     "name": "アウトレット",
     "fullName": "アウトレット\nスタンプラリー",
